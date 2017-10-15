@@ -15,16 +15,10 @@ winpty docker run -ti --rm -e DISPLAY=192.168.7.107:0.0 ide
 
 ## OSX instructions
 ```bash
-brew cask install xquartz
-git clone https://github.com/klack/dockeride.git  
-cd dockeride  
-docker build -t ide .    
+git clone https://github.com/klack/dockeride && ./dockeride/mac/install.sh
 ```
 Restart OSX
 
-```bash . 
-ip=$(ifconfig en0 | grep inet | awk '$1=="inet" {print $2}')  
-xhost + $ip 
-open -a XQuartz 
-docker run -ti --rm -e DISPLAY=$ip:0 ide 
+```bash
+./mac/start.sh
 ```
