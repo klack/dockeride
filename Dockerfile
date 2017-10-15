@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-RUN apt-get update && apt-get install -y firefox wget git
+RUN apt-get update && apt-get install -y xorg openbox wget git
 RUN mkdir /usr/local/phpstorm
 RUN cd ~/ \
 		&& wget https://download.jetbrains.com/webide/PhpStorm-2017.2.4.tar.gz
