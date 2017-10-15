@@ -6,3 +6,4 @@
 `cd dockeride`  
 `docker build -t ide .`  
 `winpty docker run -ti --rm -e DISPLAY=192.168.7.107:0.0 ide`  
+  
