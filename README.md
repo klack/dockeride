@@ -1,9 +1,10 @@
 # dockeride
 
 ## Windows instructions
-* Start an XMing server on Windows 10 host
-* Allow the local ip address of your host host machine in xming config file  
+* Download and install Xming from https://sourceforge.net/projects/xming/
+* Add the local ip address of your host host machine in xming config file  
    `C:\Program Files (x86)\Xming\X0.hosts`  
+* Start an Xming server on Windows 10 host
 
 ```bash
 git clone https://github.com/klack/dockeride.git  
