@@ -14,11 +14,12 @@ winpty docker run -ti --rm -e DISPLAY=192.168.7.107:0.0 ide
 ```
 
 ## OSX instructions
+* Start Docker
 ```bash
 git clone https://github.com/klack/dockeride && ./dockeride/mac/install.sh
 ```
-Restart OSX
-
+* Restart OSX
+* Start Docker
 ```bash
 ./mac/start.sh
 ```
